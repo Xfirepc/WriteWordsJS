@@ -1,0 +1,27 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Nuevo idioma ",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xfirepc/WriteWordsJS.git"
+  },
+  "keywords": [
+    "idioma",
+    "palabras"
+  ],
+  "author": "Jose Flores <vinygfx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xfirepc/WriteWordsJS/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
