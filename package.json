@@ -1,27 +1,24 @@
 {
-  "name": "pruebatest",
-  "version": "0.1.0",
-  "description": "Nuevo idioma ",
-  "main": "dist/src/platzom.js",
+  "name": "writewords",
+  "version": "1.0.0",
+  "description": "Mini Juego de escritura de texto en ingles del curso de fundamentos de javascript de Platzi",
+  "main": "index.html",
   "scripts": {
-    "build": "babel src/platzom.js -d dist",
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Xfirepc/WriteWordsJS.git"
   },
   "keywords": [
-    "idioma",
-    "palabras"
+    "words",
+    "write",
+    "fast",
+    "english"
   ],
   "author": "Jose Flores <vinygfx@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Xfirepc/WriteWordsJS/issues"
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
-  }
+  "homepage": "https://github.com/Xfirepc/WriteWordsJS#readme"
 }

@@ -1,34 +1,21 @@
-# Platzom
+# WriteWords
 
-Platzom es un idioma inventado para el [Curso de Fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online
+Mini Juego de escritura de texto en ingles del curso de fundamentos de javascript de Platzi, debes escribir palabras de acuerdo como se muestren un error y pierdes, ten cuidado al presionar otras teclas especiales.. Intentalo!
 
-## Descripción del idioma
+## Como Jugar
 
-- Si la palabra termina con "ar", se le quitan esas dos letras
-- Si la palabra inicia con Z, se le añade "pe" al final
-- Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio
-- Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra pero intercalando letras mayúsculas y minúsculas
+- Escribir las palabras que aparecen aleatoriamente
+- No presionar teclas ni caracteres especiales
+- Ingresar presionando bototn Start
 
 ## Instalación
 
 ```
-npm install platzom
-```
-
-## Uso
-
-```
-import platzom from 'platzom'
-
-platzom("Programar") // Program
-platzom("Zorro") // Zorrope
-platzom("Zarpar") // Zarppe
-platzom("abecedario") // abece-dario
-platzom("sometemos") // SoMeTeMoS
+npm install writewords
 ```
 
 ## Créditos
-- [Sacha Lifszyc](https://twitter.com/@slifszyc)
+- [Jose Flores](https://www.facebook.com/vinyxfire)
 
 ## Licencia
 

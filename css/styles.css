@@ -1,0 +1,114 @@
+
+body {
+background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#131c1a+0,044444+52,000000+100 */
+background: #131c1a; /* Old browsers */
+
+background: linear-gradient(to bottom, #131c1a 0%,#044444 60%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.visible{
+  display: none;
+}
+#great{
+  margin-top: 9em;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+#great h1{
+  font-size: 100px;
+}
+.text{
+  text-align: justify;
+  justify-content: center;
+  width: 600px;
+  
+}
+#great button{
+  padding: 20px 80px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 30px;
+  background: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.keyboard {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.row-med {
+  padding-left: 40px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.word{
+  animation: appear 2.5s;
+  border: 1px solid white;
+  min-width: 90%;
+  border-radius: 10px;
+  margin: 50 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  transition: all ease .5s;
+  }
+.row.last {
+  margin-left: -110px;
+}
+
+.key {
+  animation: appear 2.5s;
+  min-width: 80px;
+  padding: 36px 10px;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  margin: 0 11px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  transition: all ease .5s;
+}
+
+.key.active {
+  background-color: white;
+  color: black;
+}
+
+.key.active.success {
+  background-color: #2ecc71;
+  color: white;
+  border-color: #2ecc71;
+}
+
+.key.active.fail {
+  background-color: #e74c3c;
+  color: white;
+  border-color: #e74c3c;
+}
+
+@keyframes appear {
+  0% {
+    color: black;
+    border-color: black;
+  }
+  100% {
+    color: white;
+    border-color: white;
+  }
+}
