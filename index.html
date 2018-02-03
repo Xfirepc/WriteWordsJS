@@ -10,7 +10,7 @@
     <div id="great" class="">
         <h1>WriteWords</h1>
         <center><div class="text"><p>Mini Juego de escritura de texto en ingles del curso de fundamentos de javascript de Platzi, debes escribir palabras de acuerdo como se muestren un error y pierdes, ten cuidado al presionar otras teclas especiales.. Intentalo!</p></div></center><br><br><br>
-        <button type="button" onclick="start()" class="button"> Start</button>
+        <button type="button" onclick="start(true, 'visible', '')" class="button"> Start</button>
     </div>
     <div id="content" class="visible">
         <div class="row"></div>
@@ -48,7 +48,8 @@
             <div class="key" data-key="78">n</div>
             <div class="key" data-key="77">m</div>
         </div>
-         <div class="row-med"><p>&nbsp;Words: <span id="count">0<span></p></div>
+         <div class="row-med"><p>&nbsp;Words: <span id="count">0</span>
+        &nbsp;Level: <span id="nivel">0</span></p></div>
     </div>
     </div>
     <script src="js/dictionary.js"></script>
