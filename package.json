@@ -4,6 +4,7 @@
   "description": "Mini Juego de escritura de texto en ingles del curso de fundamentos de javascript de Platzi",
   "main": "index.html",
   "scripts": {
+    "build": "babel js/words.js -d js/wordsjs.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/Xfirepc/WriteWordsJS/issues"
   },
-  "homepage": "https://github.com/Xfirepc/WriteWordsJS#readme"
+  "homepage": "https://github.com/Xfirepc/WriteWordsJS#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
